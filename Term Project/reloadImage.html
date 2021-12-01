@@ -1,0 +1,12 @@
+<!--This code is copy pasted from the website mentioned in the corresponding python file recordAndVisualize-->
+<html>
+<script language="javascript">
+function RefreshImage(){
+document.pic0.src="visual.png?a=" + String(Math.random()*99999999);
+setTimeout('RefreshImage()',50);
+}
+</script>
+<body onload="RefreshImage()">
+<img name="pic0" src="visual.png">
+</body>
+</html>
